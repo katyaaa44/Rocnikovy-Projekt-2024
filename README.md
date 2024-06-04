@@ -20,7 +20,7 @@ Tento program kontroluje správnosť dotazov SQL študentov. Program najprv zís
     *  Cesta k dokumentu __`pathesToStudents.txt`__: __`'/home/userame/pathesToStudents/pathesToStudents.txt'`__.
     * Cesty k študentským riešeniam vyzerajú takto: __`/home/username/studentName/studentName.sql`__.
 * __Dokument __`correctAnswer.sql`__, ktorý obsahuje správne riešenie.__
-     *  Cesta k dokumentu __`correctAnswer.sql`__: __`'/home/username/correctAnswer.sql'`__.
+     *  Cesta k dokumentu __`correctAnswer.sql`__: __`'/home/username/correctAnswer/correctAnswer.sql'`__.
 
 ## Format výstupu
 
