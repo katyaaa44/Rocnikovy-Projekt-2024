@@ -1,0 +1,5 @@
+/home/ekaterina/student1/student1.sql
+/home/ekaterina/student2/student2.sql
+/home/ekaterina/student3/student3.sql
+/home/ekaterina/student4/student4.sql
+/home/ekaterina/student5/student5.sql

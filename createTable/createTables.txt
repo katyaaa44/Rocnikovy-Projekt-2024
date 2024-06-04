@@ -1,0 +1,32 @@
+4
+
+table_name: users
+id PRIMARY KEY
+name text
+email text
+password text
+phone_number int
+
+table_name: rooms
+id PRIMARY KEY
+home_type text
+address text
+price int
+owner_id FOREIGN KEY users id
+latitude int
+longitude int
+
+table_name: reservations
+id PRIMARY KEY
+user_id FOREIGN KEY users id
+room_id FOREIGN KEY rooms id
+start_date int
+end_date int
+price int
+total int
+
+table_name: reviews
+reviews_id PRIMARY KEY
+reservation_id FOREIGN KEY reservations id
+rating int
+
