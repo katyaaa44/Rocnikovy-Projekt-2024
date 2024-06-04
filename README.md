@@ -1,11 +1,9 @@
 # Rocnikovy-Projekt-2024
 ## O programe
-----------
 
 Tento program kontroluje správnosť dotazov SQL študentov. Program najprv získa údaje o tabuľkách, vytvorí ich v databáze __`database1`__ prostrednictvom __PostgreSQL__, a „náhodne“ vyplní tieto tabuľky. Potom vykoná správny dotaz SQL na túto databázu, zapamätá si výsledok, spustí dotazy študentov na databázu jeden po druhom a porovná výsledok študenta na základe výsledku ktorý vyšiel pri spustení správneho dotazu SQL a skontroluje, či vykonávanie dotaza študenta neprebieha príliš dlho, v prípade, že vykonávanie dotaza prekročí časový limit, jeho vykonávanie sa zastaví a fronta sa presunie k inému študentovi. Výsledky pre každého študenta sa zapíšu do súboru __`results.cvs`__.
 
 ## Požiadavky na vstup
-----------
 #### Na spustenie program potrebuje:
 
 * __Textový dokument `createTables.txt`, v ktorom sú popísané tabuľky.__
@@ -24,9 +22,9 @@ Tento program kontroluje správnosť dotazov SQL študentov. Program najprv zís
      *  Cesta k dokumentu __`correctAnswer.sql`__: __`'/home/username/correctAnswer.sql'`__.
 
 ## Format vystupu
-----------     
+
 Výstupom je subor __`results.cvs`__ v ktorom je tabuľka s dvoma stĺpcami: __`Student name`__ a __`Result`__: __`OK/FAIL/TLE`__. Tiež táto tabuľka a niektoré ďalšie medzivýsledky sa počas vykonávania kódu vypisujú na konzolu.
 
 ## Spustenie programu 
-----------  
+
 Na spustenie programu je môžne použiť súbor __`run.sh`__ alebo spustiť kód prostredníctvom editora.
