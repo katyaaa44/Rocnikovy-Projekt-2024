@@ -7,6 +7,7 @@ Tento program kontroluje správnosť dotazov SQL študentov. Program najprv zís
 #### Na spustenie program potrebuje:
 
 * __Textový dokument `createTables.txt`, v ktorom sú popísané tabuľky.__
+  
   Na prvom riadku je celé číslo __`n`__, ktoré udáva, koľko tabuliek sa vytvorí.
   Za riadkom nasleduje riadok s názvom tabuľky v tvare __`table_name: newTable`__. 
   Potom nasleduje ľubovoľný počet riadkov, (z ktorých každý predstavuje jeden stlpec) v tvare __`newColumnName datatype`__, kde __`datatype`__ môže byť typu __`int/text/PRIMARY KEY/FOREGIN KEY`__.
@@ -21,7 +22,7 @@ Tento program kontroluje správnosť dotazov SQL študentov. Program najprv zís
 * __Dokument __`correctAnswer.sql`__, ktorý obsahuje správne riešenie.__.
      *  Cesta k dokumentu __`correctAnswer.sql`__: __`'/home/username/correctAnswer.sql'`__.
 
-## Format vystupu
+## Format výstupu
 
 Výstupom je subor __`results.cvs`__ v ktorom je tabuľka s dvoma stĺpcami: __`Student name`__ a __`Result`__: __`OK/FAIL/TLE`__. Tiež táto tabuľka a niektoré ďalšie medzivýsledky sa počas vykonávania kódu vypisujú na konzolu.
 
