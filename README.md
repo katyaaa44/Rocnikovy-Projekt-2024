@@ -28,4 +28,4 @@ Výstupom je subor __`results.cvs`__ v ktorom je tabuľka s dvoma stĺpcami: __`
 
 ## Spustenie programu 
 
-Na spustenie programu je môžne použiť súbor __`run.sh`__ alebo spustiť kód prostredníctvom editora.
+Na spustenie programu je môžne použiť súbor __`run.sh`__ alebo spustiť prostredníctvom editora.
