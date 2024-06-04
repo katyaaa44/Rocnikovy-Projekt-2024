@@ -11,7 +11,7 @@ Tento program kontroluje správnosť dotazov SQL študentov. Program najprv zís
   Na prvom riadku je celé číslo __`n`__, ktoré udáva, koľko tabuliek sa vytvorí.
   Za riadkom nasleduje riadok s názvom tabuľky v tvare __`table_name: newTable`__. 
   Potom nasleduje ľubovoľný počet riadkov, (z ktorých každý predstavuje jeden stlpec) v tvare __`newColumnName datatype`__, kde __`datatype`__ môže byť typu __`int/text/PRIMARY KEY/FOREGIN KEY`__.
-    * Za __`FOREGIN KEY`__ by mal byt napísaný názov tabuľky __`referenceTable`__ , a nazov stlpca __`referencedColumn`__ na ktorý bude odkazovať __`newColumnName`__. V súlade s tým __musí__ byť __`referenceTable`__ deklarovaná skôr.
+    * Za __`FOREGIN KEY`__ by mal byt napísaný názov tabuľky __`referencedTable`__ , a nazov stlpca __`referencedColumn`__ na ktorý bude odkazovať __`newColumnName`__. V súlade s tým __musí__ byť __`referencedTable`__ deklarovaná skôr.
 
     * Cesta k dokumentu __`createTables.txt`__ : __`'/home/username/createTable/createTables.txt'`__.
 
@@ -19,7 +19,7 @@ Tento program kontroluje správnosť dotazov SQL študentov. Program najprv zís
 * __Textový dokument __`pathesToStudents.txt`__, v ktorom sú zapísané cesty k súborom s riešeniami pre každého študenta__.
     *  Cesta k dokumentu __`pathesToStudents.txt`__: __`'/home/userame/pathesToStudents/pathesToStudents.txt'`__.
     * Cesty k študentským riešeniam vyzerajú takto: __`/home/username/studentName/studentName.sql`__.
-* __Dokument __`correctAnswer.sql`__, ktorý obsahuje správne riešenie.__.
+* __Dokument __`correctAnswer.sql`__, ktorý obsahuje správne riešenie.__
      *  Cesta k dokumentu __`correctAnswer.sql`__: __`'/home/username/correctAnswer.sql'`__.
 
 ## Format výstupu
